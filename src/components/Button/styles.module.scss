@@ -1,0 +1,23 @@
+.primaryBtn {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+
+  background-color: var(--orange-500);
+  color: var(--light-100);
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.tertiaryBtn {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+
+  color: var(--orange-500);
+  font-weight: bold;
+  text-decoration: underline;
+
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.heroContent {
+  padding: calc(6rem + 3.5rem) 0 0 2rem;
+
+  color: var(--light-100);
+
+  h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: bold;
+  }
+
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    width: 25rem;
+    text-align: justify;
+    margin-bottom: 3rem;
+  }
+
+  div {
+    gap: 1.5rem;
+  }
+}
