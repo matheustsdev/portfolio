@@ -1,0 +1,75 @@
+.aboutCard {
+  display: flex;
+  gap: 1rem;
+
+  padding: 1.5rem;
+  width: 100%;
+  border-radius: 1rem;
+
+  background-color: #fff;
+
+  &:hover .imgContainer img {
+    filter: saturate(100%);
+  }
+
+  .imgContainer {
+    width: 350px;
+    height: 500px;
+
+    position: relative;
+
+    img {
+      border-radius: 1rem;
+      filter: saturate(0%);
+      transition: 0.2s ease-in-out filter;
+    }
+  }
+
+  .aboutContent {
+    padding: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .personalInfos {
+      display: flex;
+      gap: 2rem;
+
+      div {
+        display: flex;
+        flex-direction: column;
+
+        div {
+          display: flex;
+          flex-direction: row;
+          gap: 0.25rem;
+
+          span:nth-child(odd) {
+            color: var(--orange-500);
+            text-decoration: underline;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+
+  p {
+    width: 600px;
+    text-align: justify;
+  }
+
+  .skills {
+    h3 {
+      font-size: 1.5rem;
+      color: var(--orange-500);
+      font-weight: 600;
+    }
+    div {
+      display: flex;
+      gap: 3rem;
+      padding-left: 1.5rem;
+    }
+  }
+}

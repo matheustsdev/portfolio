@@ -1,3 +1,4 @@
+import { AboutCard } from '../components/AboutCard';
 import { BackgroundImage } from '../components/BackgroundImage';
 import { Button } from '../components/Button';
 import { Header } from '../components/Header';
@@ -6,10 +7,10 @@ import styles from './home.module.scss';
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.homeSections}>
       <Header />
       <BackgroundImage imgUrl="/img/hero.jpg">
-        <div className={styles.heroContent}>
+        <section id="home" className={styles.heroSection}>
           <h1>Matheus Teixeira</h1>
           <h2>Desenvolvedor Frontend</h2>
           <p>
@@ -23,8 +24,13 @@ export default function Home() {
             <Button>Sobre mim</Button>
             <Button category="tertiary">Contate-me</Button>
           </div>
-        </div>
+        </section>
       </BackgroundImage>
+      <section id="about" className={styles.aboutSection}>
+        <h1>SOBRE MIM</h1>
+        <AboutCard />
+        <Button category="secondary">Saiba mais</Button>
+      </section>
     </div>
   );
 }

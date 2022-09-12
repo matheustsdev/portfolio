@@ -1,25 +1,43 @@
-.heroContent {
-  padding: calc(6rem + 3.5rem) 0 0 2rem;
+.homeSections {
+  .heroSection {
+    padding: calc(6rem + 3.5rem) 0 0 2rem;
 
-  color: var(--light-100);
+    color: var(--light-100);
 
-  h1 {
-    font-size: 4rem;
-    line-height: 4rem;
-    font-weight: bold;
+    h1 {
+      font-size: 4rem;
+      line-height: 4rem;
+      font-weight: bold;
+    }
+
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      width: 25rem;
+      text-align: justify;
+      margin-bottom: 3rem;
+    }
+
+    div {
+      gap: 1.5rem;
+    }
   }
 
-  h2 {
-    margin-bottom: 1.5rem;
-  }
+  .aboutSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-  p {
-    width: 25rem;
-    text-align: justify;
-    margin-bottom: 3rem;
-  }
+    padding: 2.5rem 4rem;
+    gap: 2.5rem;
 
-  div {
-    gap: 1.5rem;
+    h1 {
+      font-size: 3rem;
+      line-height: 4rem;
+      color: var(--orange-500);
+    }
   }
 }

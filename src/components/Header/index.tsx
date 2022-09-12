@@ -8,7 +8,7 @@ export function Header() {
     <header className={styles.header}>
       <nav>
         <Link href="#">HOME</Link>
-        <Link href="#">SOBRE</Link>
+        <Link href="#about">SOBRE</Link>
         <Link href="#">PROJETOS</Link>
         <Link href="#">CONTATO</Link>
       </nav>
