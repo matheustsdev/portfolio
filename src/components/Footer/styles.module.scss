@@ -1,0 +1,48 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
+
+  padding-top: 2.5rem;
+  background-color: var(--dark-600);
+
+  color: var(--white);
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      font-size: 1rem;
+
+      span {
+        font-weight: 700;
+        margin-right: 0.25rem;
+      }
+
+      svg {
+        font-size: 2rem;
+        margin-right: 0.5rem;
+      }
+
+      p {
+        padding: 0;
+      }
+    }
+  }
+
+  p {
+    padding-top: 2.5rem;
+  }
+}

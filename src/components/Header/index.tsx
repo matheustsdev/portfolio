@@ -2,15 +2,28 @@ import Link from 'next/link';
 import styles from './styles.module.scss';
 import { FiGithub, FiMail, FiLinkedin } from 'react-icons/fi';
 import { BsWhatsapp } from 'react-icons/bs';
+import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 
 export function Header() {
+  const [position, setPosition] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      setPosition(window.scrollY);
+    });
+    console.log(position);
+  }, [position]);
+
   return (
     <header className={styles.header}>
       <nav>
-        <Link href="#">HOME</Link>
+        <Link href="#" className={position >= 0 && position < 615 ? styles.active : styles.desactive}>
+          HOME
+        </Link>
         <Link href="#about">SOBRE</Link>
-        <Link href="#">PROJETOS</Link>
-        <Link href="#">CONTATO</Link>
+        <Link href="#projects">PROJETOS</Link>
+        <Link href="#contact">CONTATO</Link>
       </nav>
       <nav>
         <a href="https://github.com/matheustsdev" target="_blank" rel="noopener noreferrer">

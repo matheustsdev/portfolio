@@ -21,6 +21,8 @@
     }
 
     div {
+      display: flex;
+      align-items: center;
       gap: 1.5rem;
     }
   }
@@ -38,6 +40,29 @@
       font-size: 3rem;
       line-height: 4rem;
       color: var(--orange-500);
+    }
+  }
+
+  .projectsSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 0.75rem 2.5rem;
+    gap: 2.5rem;
+
+    h1 {
+      font-size: 3rem;
+      line-height: 4rem;
+      color: var(--orange-500);
+    }
+
+    .projectsGrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 2.5rem;
+      row-gap: 2rem;
     }
   }
 }
