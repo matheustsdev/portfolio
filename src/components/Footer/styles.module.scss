@@ -8,6 +8,8 @@
   padding-top: 2.5rem;
   background-color: var(--dark-600);
 
+  margin-top: 2.5rem;
+
   color: var(--white);
 
   h1 {
@@ -43,6 +45,24 @@
   }
 
   p {
-    padding-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1rem;
+    padding: 1.5rem 0;
+  }
+
+  @media (max-width: 460px) {
+    div {
+      align-items: flex-start;
+      width: fit-content;
+      flex-direction: column;
+
+      gap: 1.5rem;
+    }
+
+    p {
+      padding: 2rem 0;
+    }
   }
 }
