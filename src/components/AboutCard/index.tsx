@@ -31,11 +31,11 @@ export function AboutCard() {
           </div>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis nibh vitae ultrices varius. Curabitur
-          sit amet eleifend felis. Pellentesque ipsum lacus, semper vitae dui eget, ornare rhoncus nulla. Cras
-          scelerisque ante ac ex convallis lacinia. Nam convallis nulla eget cursus maximus. Nam fringilla, ex eget
-          pharetra vehicula, felis massa rhoncus augue, vel accumsan arcu lacus vel felis. Fusce blandit quis libero id
-          luctus.
+          Sou um estudante de Ciência da Computação no IFCE de Maracanaú e possuo experiência com desenvolvimento usando
+          HTML/CSS/JS, ReactJs/NextJs, NodeJs+Express, Python. <br /> <br />
+          Desenvolvi diversas habilidades nos meus 24 anos, como as citadas abaixo, e tenho o objetivo evoluir muito
+          mais na área de tecnologia. Para isso sigo meus estudos na faculdade, no curso ofertado pela Rocketseat e por
+          diversos outros meios em que eu possa adquirir conhecimento, como: vídeos, livros e podcasts.
         </p>
         <div className={styles.skills}>
           <h3>Habilidades</h3>

@@ -16,13 +16,12 @@ export default function Home() {
       <BackgroundImage imgUrl="/img/hero.jpg">
         <section id="home" className={styles.heroSection}>
           <h1>Matheus Teixeira</h1>
-          <h2>Desenvolvedor Frontend</h2>
+          <h2>Desenvolvedor Fullstack</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis nibh vitae ultrices varius. Curabitur
-            sit amet eleifend felis. Pellentesque ipsum lacus, semper vitae dui eget, ornare rhoncus nulla. Cras
-            scelerisque ante ac ex convallis lacinia. Nam convallis nulla eget cursus maximus. Nam fringilla, ex eget
-            pharetra vehicula, felis massa rhoncus augue, vel accumsan arcu lacus vel felis. Fusce blandit quis libero
-            id luctus.
+            Desenvolvedor Fullstack, com experiência em: ReactJs, React Native e NodeJs com Express, estudante de
+            Ciência da Computação e apaixonado por criar desde criança. <br />
+            <br />
+            Paixão que evoluiu para carreira!
           </p>
           <div>
             <Button>Sobre mim</Button>
