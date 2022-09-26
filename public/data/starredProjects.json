@@ -23,23 +23,23 @@
   },
   {
     "id": "3",
-    "name": "LinkTree",
-    "tecnologies": "NextJs, Typescript e SASS",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis nibh vitae ultrices varius. Curabitur sit amet eleifend felis. Pellentesque ipsum lacus, semper vitae dui eget, ornare rhoncus nulla. ",
+    "name": "Social Tree",
+    "tecnologies": "HTML, CSS e Javascript",
+    "description": "Uma link tree para o instagram com 5 botões disponíveis para inserir um link de redirecionamento e ícones para conectar uma rede social.",
     "href": {
-      "website": "google.com",
-      "repository": "github.com/matheustsdev"
+      "website": "https://social-tree-orcin.vercel.app/",
+      "repository": "https://github.com/matheustsdev/social-tree"
     },
     "status": "online"
   },
   {
     "id": "4",
-    "name": "Dashgo",
-    "tecnologies": "NextJs, Typescript e SASS",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis nibh vitae ultrices varius. Curabitur sit amet eleifend felis. Pellentesque ipsum lacus, semper vitae dui eget, ornare rhoncus nulla. ",
+    "name": "Podcast Valley",
+    "tecnologies": "React, Typescript e Styled-Components.",
+    "description": "Essa é um aplicação de um site de podcast, com player de áudio personalizado e lista de todos os episódios para ouvir qualquer um deles diretamente pelo site.",
     "href": {
-      "website": "google.com",
-      "repository": "github.com/matheustsdev"
+      "website": "https://podcast-valley.vercel.app/",
+      "repository": "https://github.com/matheustsdev/podcast_valley"
     },
     "status": "online"
   }
