@@ -1,23 +1,23 @@
 [
   {
     "id": "1",
-    "name": "Dashgo",
-    "tecnologies": "NextJs, Typescript e SASS",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis nibh vitae ultrices varius. Curabitur sit amet eleifend felis. Pellentesque ipsum lacus, semper vitae dui eget, ornare rhoncus nulla. ",
+    "name": "Ignews",
+    "tecnologies": "NextJs, StripeAPI, FaunaDB e SASS",
+    "description": "Esta é uma aplicação de um blog com conteúdo pago. Se você não tiver uma assinatura paga, apenas o início da postagem ficará visível.",
     "href": {
-      "website": "google.com",
-      "repository": "github.com/matheustsdev"
+      "website": "https://ignews-orpin-six.vercel.app",
+      "repository": "https://github.com/matheustsdev/ignews"
     },
     "status": "online"
   },
   {
     "id": "2",
-    "name": "Ignews",
-    "tecnologies": "NextJs, PrismicCMS e FaunaDB",
+    "name": "Data Table",
+    "tecnologies": "NextJs, Typescript e SASS",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis nibh vitae ultrices varius. Curabitur sit amet eleifend felis. Pellentesque ipsum lacus, semper vitae dui eget, ornare rhoncus nulla. ",
     "href": {
-      "website": "google.com",
-      "repository": "github.com/matheustsdev"
+      "website": "https://data-table-kohl.vercel.app/",
+      "repository": "https://github.com/matheustsdev/data-table"
     },
     "status": "online"
   },
