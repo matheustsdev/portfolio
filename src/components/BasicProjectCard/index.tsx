@@ -28,20 +28,24 @@ export function BasicProjectCard({ project }: BasicProjectCardProps) {
   }
 
   return (
-    <div className={styles.cardContainer}>
+    <div className={project.status === 'online' ? styles.onlineCard : styles.offlineCard}>
       <div>
-        <div onClick={goToWebsite}>
-          <h2>{project.name}</h2>
-          <h3>{project.tecnologies}</h3>
-        </div>
+        {project.status === 'online' ? (
+          <div onClick={goToWebsite}>
+            <h2>{project.name}</h2>
+            <h3>{project.tecnologies}</h3>
+          </div>
+        ) : (
+          <div onClick={goToWebsite}>
+            <h2>Em construção</h2>
+          </div>
+        )}
         <p>{project.description}</p>
         <Button category="tertiary" href={project.href.repository}>
           Repositório
         </Button>
       </div>
-      <div>
-        <FiChevronRight onClick={goToWebsite} />
-      </div>
+      <div>{project.status === 'online' && <FiChevronRight onClick={goToWebsite} />}</div>
     </div>
   );
 }

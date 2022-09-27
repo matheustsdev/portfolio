@@ -1,4 +1,4 @@
-.cardContainer {
+.onlineCard {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
@@ -46,6 +46,61 @@
         color: var(--orange-500);
         cursor: pointer;
       }
+    }
+  }
+
+  @media (max-width: 460px) {
+    gap: 1rem;
+    align-items: center;
+
+    div {
+      p {
+        width: 250px;
+      }
+    }
+  }
+}
+
+.offlineCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: white;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    div {
+      cursor: pointer;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 900;
+      line-height: 2rem;
+      color: var(--dark-600);
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      width: 400px;
+      text-align: justify;
+      font-size: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: var(--dark-600);
     }
   }
 
